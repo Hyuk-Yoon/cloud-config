@@ -32,9 +32,6 @@ spring:
       password: springboot
   thymeleaf:
     cache: false
-board:
-  upload:
-    dir: images
 
 ---
 spring:
@@ -47,7 +44,4 @@ spring:
       jdbc-url: jdbc:log4jdbc:mysql://146.56.97.84:3306/insight?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC
       username: root
       password: springboot
-board:
-  upload:
-    dir: /home/opc/src/board/images
     
